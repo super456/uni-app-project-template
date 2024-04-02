@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "bradlc.vscode-tailwindcss",
+    "stylelint.vscode-stylelint",
+    "EditorConfig.EditorConfig",
+    "wayou.vscode-todo-highlight",
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "page": {
+    "description": "页面上中下布局模板",
+    "prefix": "page-layout",
+    "body": [
+      "<template>",
+      "  <CusPageLayout>",
+      "    <template #header>",
+      "      头部",
+      "    </template>",
+      "    <template #container>",
+      "      内容",
+      "    </template>",
+      "    <template #footer>",
+      "      底部",
+      "    </template>",
+      "  </CusPageLayout>",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup>",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "</style>",
+      ""
+    ]
+  }
+}

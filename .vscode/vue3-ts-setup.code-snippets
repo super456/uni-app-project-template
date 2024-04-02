@@ -1,0 +1,19 @@
+{
+  "page": {
+    "description": "Vue3 setup 页面模板",
+    "prefix": "vue3",
+    "body": [
+      "<template>",
+      "  <view>",
+      "  </view>",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup>",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "</style>",
+      ""
+    ]
+  }
+}

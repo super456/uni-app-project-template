@@ -1,0 +1,55 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+        "disableScroll": true
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+        "disableScroll": true
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#FE2926",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/tabBar/mine.png",
+				"selectedIconPath": "static/tabBar/mine_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#FD8057"
+	},
+  "easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uv-(.*)": "@climblee/uv-ui/components/uv-$1/uv-$1.vue"
+		}
+	}
+}
